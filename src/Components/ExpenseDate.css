@@ -1,0 +1,12 @@
+.date{
+    background-color: #4b6584;
+    font-size: 1.3rem;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    gap: .5vw;
+    margin-left: 1.2rem;
+    /* border: 2px solid white; */
+    border-radius: 1rem;
+    padding: 0vh 1vw;
+}

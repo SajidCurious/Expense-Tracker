@@ -1,19 +1,13 @@
 import React from "react";
 import "./ExpenseItem.css";
+import "./ExpenseDate";
+import ExpenseDate from "./ExpenseDate";
 
 export const ExpenseItem = (props) => {
-  const month = props.date.toLocaleString("en-US", { month: "long" });
-  const day = props.date.toLocaleString("en-US", { day: "2-digit" });
-  const year = props.date.getFullYear();
-
   return (
-    <div className="expense-item">
-      <div className="date">
-        <p>{day}</p>
-        <p>{month}</p>
-        <p>{year}</p>
-      </div>
-      <div className="expense-item_description">
+    <div className="main-container">
+      <div className="expense-item">
+        <ExpenseDate date={props.date} />
         <h2>{props.title}</h2>
         <p className="expense-item_price">${props.amount}</p>
       </div>
