@@ -1,15 +1,10 @@
-.main-container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100vw;
-}.expense-item{
-    width: 50vw;
+.expense-item{
+    width: 50vw;    
     display: flex;
     justify-content: space-between;
     align-items: center;
     box-shadow: 0 2px 8px rgba(0,0,0,0.25);
-    padding: 0.5rem;
+    padding: 0.1rem;
     margin: .8rem 0;
     border-radius: 12px;
     background-color: #354364;

@@ -1,6 +1,7 @@
 .date{
     background-color: #4b6584;
-    font-size: 1.3rem;
+    font-size: 1rem;
+    font-weight: 500;
     color: white;
     display: flex;
     flex-direction: row;
