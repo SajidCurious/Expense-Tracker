@@ -1,0 +1,26 @@
+.form{
+    display: flex;
+    flex-direction: column;
+    background-color: #222f3e;
+    padding: 0vh 5vw 2vh 5vw;
+    color: white;
+    text-align: center;
+    border-radius: 1rem;
+    font-size: 1rem;
+    font-weight: 500;
+}
+.input_date,.input_title,.input_amount{
+    margin-bottom: 1vh;
+}
+
+.create_expense{
+    padding: 2vh 1vw;
+    border-radius: 1rem;
+    font-size: 1rem;
+    margin-top: 2vh;
+    color: white;
+    background: linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6);
+    cursor: pointer;
+    border: none;
+    font-weight: 600;
+}
