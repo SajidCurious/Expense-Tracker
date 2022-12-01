@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Expenses from "./Components/Expenses/Expenses";
 import "./App.css";
-import NewExpense from "./Components/UI/NewExpense";
+import NewExpense from "./Components/NewExpense/NewExpense";
 
 let dummyExpense = [
   {
@@ -23,6 +23,13 @@ let dummyExpense = [
     date: new Date(2022, 5, 25),
   },
 ];
+fetch("https://api.sampleapis.com/coffee/hot")
+  .then((response) => {
+    return response.json();
+  })
+  .then((data) => {
+    console.log(data);
+  });
 
 const App = () => {
   const [expenses, setExpenses] = useState(dummyExpense);

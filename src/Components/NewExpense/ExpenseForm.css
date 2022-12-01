@@ -36,7 +36,7 @@
 .create_expense{
     padding: 2vh 1vw;
     border-radius: 1rem;
-    font-size: 1rem;
+    font-size: .8rem;
     margin-top: 2vh;
     color: white;
     background: linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6);
